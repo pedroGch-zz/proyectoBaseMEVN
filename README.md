@@ -1,0 +1,3 @@
+# proyectoBaseMEVN
+este es un proyecto base para aplicaciones en en el stack mongo, express, vue y node... para más info leer el readme en el proyecto
+Este proyecto incluse las siguientes dependencias y configuraciones (las más destacadas): nodemon: sirve para que el servidor de node se reinicie cada vez que se actualiza algún archivo del proyecto. Esta configurado en el archivo package.json de la siguiente manera "dev": "nodemon src/index.js" y se ejecuta con el comando npm run dev webpack: sirve para compilar los archivos de vue. Esta configurado en el archivo package.json de la siguiente manera "webpack": "webpack --mode development --watch" y se ejecuta con el comando npm run webpack
